@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-import dotenv from 'dotenv';
-dotenv.config();
+// import dotenv from 'dotenv';
+// dotenv.config();
 
 const BASE_URL = process.env.BASE_EXTERNAL_URL || process.env.BASE_LOCAL_URL;
 
