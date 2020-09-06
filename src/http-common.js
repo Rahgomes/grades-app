@@ -5,7 +5,7 @@ dotenv.config();
 
 //Define a URL base da origem para consumo do servico
 export default axios.create({
-  baseURL: process.env.BASE_LOCAL_URL || process.env.BASE_EXTERNAL_URL,
+  baseURL: "https://api-grades-estudantes.herokuapp.com/grade",
   headers: {
     'Content-type': 'application/json'
   },
